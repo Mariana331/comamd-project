@@ -361,6 +361,8 @@ button {
   background-color: #fff;
   border-radius: 40px;
   padding: 32px 24px;
+  width: 335px;
+  height: 376px;
 }
 
 .vegetables-list-title {
@@ -395,6 +397,7 @@ button {
     font-size: 16px;
     line-height: 1.2;
     padding-bottom: 52px;
+    max-width: 626px;
   }
   .vegetables-group {
     row-gap: 28px;
@@ -402,14 +405,18 @@ button {
   }
   .vegetables-list {
     width: calc((100% - 24px) / 2);
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 340px;
+    height: 380px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .vegetables-text {
-    max-width: 626px;
-  }
   .vegetables-list {
     width: calc((100% - 48px) / 3);
+    padding-right: 32px;
+    padding-left: 32px;
+    width: 344px;
   }
 }
