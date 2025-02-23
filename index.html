@@ -21,12 +21,57 @@
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
-    <header>
-    
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <div class="wrapper-logo">
+            <a class="logo header-logo" href="./index.html">
+              <svg class="header-logo-icon" width="168" height="16">
+                <use class="logo-icon" href="/img/sprite.svg#icon-logo"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="nav-wrapper">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="nav-link" href="#works">How It Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#vegetables">Vegetables</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+            </ul>
+
+            <button class="header-shop-btn" type="button">Shop now</button>
+          </div>
+        </nav>
+
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="32" height="32">
+            <use href="/img/sprite.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
     </header>
     <main>
+      <!------------HERO-------------->
+      <section class="page-hero">
+        <div class="container hero-container">
+          <h1 class="hero-title">organic vegetables to your diet today!</h1>
+          <p class="hero-text">
+            Our expertly curated vegetable baskets are made with the freshest,
+            highest quality vegetables available. Fresh Harvest Box has got you
+            covered. Fresh, high-quality vegetables in expertly curated
+            vegetable baskets delivered to you.
+          </p>
+        </div>
+
+        <div class="container hero-container-img"></div>
+      </section>
       <!----------VEGETABLES--------------->
-      <section class="vegetables">
+      <section class="vegetables" id="vegetables">
         <div class="container">
           <div class="vegetables-info">
             <h2 class="vegetables-title">
@@ -120,5 +165,58 @@
           </ul>
         </div>
       </section>
+    </main>
+    <footer class="footer footer-container container">
+      <div class="footer-svg-menu-adress">
+        <div class="footer-list-text">
+          <a href="" class="footer-svg-list">
+            <svg href="" class="footer-svg" width="168" height="16">
+              <use href="/img/sprite.svg#icon-logo"></use>
+            </svg>
+          </a>
+
+          <p class="footer-text">
+            Whether you're looking for a healthy snack or a thoughtful gift, our
+            fruit baskets are the perfect choice.
+          </p>
+        </div>
+
+        <div class="footer-menu-adress">
+          <div class="footer-menu-div-one">
+            <ul class="footer-menu-list">
+              <li class="footer-menu-list-item">
+                <a href="#works">How It Works</a>
+              </li>
+              <li class="footer-menu-list-item">
+                <a href="#vegetables">Vegetables</a>
+              </li>
+              <li class="footer-menu-list-item">
+                <a href="#works">Reviews</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-div-adress">
+            <adress class="footer-adress">
+              <a class="footer-tel" href="+380684439426">+380 (68) 443-94-26</a>
+
+              <p class="footer-tel-adress">
+                1678 S. Pioneer Road Salt Lake City UT 84104
+              </p>
+            </adress>
+          </div>
+        </div>
+      </div>
+      <div class="footer-policy-harvest">
+        <div class="footer-div-policy">
+          <p class="footer-list-item-privacy">Privacy Policy</p>
+          <p class="footer-list-item-privacy">/</p>
+          <p class="footer-list-item-privacy">Cookie settings</p>
+        </div>
+        <div>
+          <p class="footer-list-item-harvest">©Green Harvest 2023</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
